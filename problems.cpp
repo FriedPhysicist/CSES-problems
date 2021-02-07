@@ -2,9 +2,16 @@
 
 using namespace std;
 
+
+int size_array(int array[])
+{
+  return sizeof(array)-sizeof(array[0]);
+}
+
 void weird_algorithm()
 {
-  int input=3;
+  int input;
+  cin>>input;
 
   while(input>1)
   {
@@ -14,10 +21,17 @@ void weird_algorithm()
 }
 
 void missing_number()
-{
-  
+{ 
+  int array_[4]={2,3,1,5};
+
+  for(int i=0;i<size_array(array_);i++)
+  {
+    cout<<array_[i]<< endl;
+  }
 }
 
+
 int main()
-{
+{ 
+  missing_number();
 }
