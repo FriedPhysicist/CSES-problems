@@ -4,6 +4,7 @@
 using namespace std;
 
 
+//asdf
 int size_array(int array[])
 {
   return sizeof(array)-sizeof(array[0]);
