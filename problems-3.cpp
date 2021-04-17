@@ -46,7 +46,10 @@ void repetitions()
   cout<<most<<endl;
 }
 
+int b;
+
 int main()
 { 
-    repetitions();
+    b = cin.get();
+    cout<<b<<endl;
 }
